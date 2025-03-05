@@ -1,0 +1,94 @@
+body {height: 2000px;}
+#anh {position: relative; left: 80px; bottom: 1px; height: 60px;}
+.modau {display: flex;justify-content: space-evenly;margin-right: 100px;}
+.modau {width: 100%;
+    height: 60px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;}
+.anhnen {
+    width: 100%;
+    height: 800px;
+    margin-top: 60px;
+    background-image: url(https://fpt.com/-/media/project/fpt-corporation/fpt/home/banner/common/image/nen-banner-slide_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center ; 
+    position: relative;
+
+}
+.tronganhnen {
+    width: 50%;
+    height:550px;
+    background: url(https://fpt.com/-/media/project/fpt-corporation/fpt/fpt-tower-hn_5.jpg) no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    position: absolute;
+    bottom: 125px;
+    left: 275px;
+    box-sizing: content-box;
+    animation: growth ease-in 0.5s;
+}
+.texttrongnen {
+    border: 5px solid black;
+    width:630px;
+    height:500px;
+    background-color: aliceblue;
+    background-size: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 1100px;
+    animation: growth ease-in 0.5s;
+
+}
+
+@keyframes leftsang {
+    from {
+        opacity: 0;
+        width: 50%;
+    }
+    to {
+        opacity:1;
+        width: 100%;
+    }
+    
+}
+@keyframes growth {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.phan2 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tamnhinchienluoc {
+    margin-right:80px;
+}
+
+
+.abc {
+    border: rgb(30, 30, 30) 1px solid; border-radius: 25px;
+    margin:25px;
+    padding: 80px 30px;
+    padding-bottom: 200px;
+   
+}
+.text {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px ;}
+.phan3 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.textcuoi {
+    padding-right: 300px;
+    padding-top: 200px;
+}
