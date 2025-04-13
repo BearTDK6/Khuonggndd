@@ -1,0 +1,25 @@
+
+/* (tính kế thừa) */
+* {
+	box-sizing: inherit;
+}
+/* (phông chữ cho web) */
+html {
+	font-size:62.5%;
+	line-height:1.6rem;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+/* (thích nghi với nhiều thiết bị) */
+.grid {
+	width: 1200px;
+	max-width:100%;
+	margin: auto;
+}
+.grid__full-width {
+	width:100%;
+}
+.grid_row {
+	display: flex;
+	flex-wrap: wrap;
+}
