@@ -1,0 +1,287 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    height: 300vh;
+}
+
+#anh {
+    position: relative;
+    left: 80px;
+    bottom: 1px;
+    height: 60px;
+}
+
+.modau {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    position: sticky;
+    z-index: 1000;    
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+}
+
+.anhnen {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://fpt.com/-/media/project/fpt-corporation/fpt/home/banner/common/image/nen-banner-slide_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.tronganhnen {
+    width: 50%;
+    height: 550px;
+    background: url(https://fpt.com/-/media/project/fpt-corporation/fpt/fpt-tower-hn_5.jpg) no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    position: absolute;
+    bottom: 125px;
+    left: 275px;
+    box-sizing: content-box;
+    animation: growth ease-in 0.5s;
+}
+
+.texttrongnen {
+    border: 5px solid black;
+    width: 630px;
+    height: 500px;
+    background-color: aliceblue;
+    background-size: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 1100px;
+    animation: growth ease-in 0.5s;
+
+}
+
+@keyframes leftsang {
+    from {
+        opacity: 0;
+        width: 50%;
+    }
+
+    to {
+        opacity: 1;
+        width: 100%;
+    }
+
+}
+
+@keyframes growth {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.phan2 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.tamnhinchienluoc {
+    margin-right: 80px;
+}
+
+
+.abc {
+    border: rgb(30, 30, 30) 1px solid;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 80px 30px;
+    padding-bottom: 200px;
+
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.phan3 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.textcuoi {
+    padding-top: 150px;
+    padding-right: 300px;
+    margin-right: 230px;
+    background-color: #fff8ef;
+}
+
+.checkwall {
+    transition: opacity .3s;
+}
+
+.checkwall:hover {
+    opacity: 0.7;
+}
+
+.Hesinhthaifpt {
+    margin-left: 210px;
+    margin-right: 200px;
+    max-width: 1050px;
+}
+
+.phan4 {
+    display: flex;
+    max-width: fit-content;
+    flex-wrap: wrap;
+}
+
+.anh1 {
+    border: 2px solid red;
+    margin-left: 200px;
+    margin-right: 1500px;
+}
+
+.anh2 {
+    border: 2px solid red;
+}
+
+.anh3 {
+    border: 2px solid red;
+}
+
+.anh4 {
+    border: 2px solid red;
+}
+
+.textchung {
+    margin-left: 50px;
+
+}
+
+.container {
+    max-width: 1920px !important;
+    margin: auto;
+
+}
+
+
+
+.heSinhThaiFPT {
+    width: 1461px;
+    margin: auto;
+}
+
+.heSinhThaiFPT .title {
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: -.02em;
+    font-size: 28px;
+    letter-spacing: -.02em;
+    text-align: left;
+    color: #fc7321;
+}
+.heSinhThaiFPT .description {
+    width: 70%;
+}
+.danhSachHeSinhThai{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.danhSachHeSinhThai .hst{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.hst:hover {
+    
+    border: 1px solid rgb(198, 198, 198);
+}
+.hst img{
+    width: 60%;
+    border-radius: 40px;
+}
+.hst .content{
+    width: 60%;
+}
+.titleContent{
+    color: #0e1830;
+    margin-top: 0;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+.buttonContent{
+    background-color: #fc7321;
+    width: 100%;
+    max-width: 124px;
+    padding: 10px 0;
+    border-radius: 13px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slider{
+    height: 650px;
+    background-image: url('https://fpt.com/-/media/project/fpt-corporation/fpt/home/banner/common/image/nen-banner-slide_2.jpg');
+}
+.box{
+    position: relative;
+    width: 1461px;
+    margin: auto;
+    height: 566px;
+    padding: 42px;
+
+}
+.box img{
+    position: absolute;
+top: 0;
+left: 0;
+    width: 75%;
+    height: 90%;
+
+}
+.box .content{
+    background-color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    z-index: 11;
+
+}
+.box .content .title{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.box .content p{display: block;}
+.box .content button{
+    background-color: #fc7321;
+    width: 100%;
+    max-width: 124px;
+    padding: 10px 0;
+    border-radius: 13px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 100px;
+}
