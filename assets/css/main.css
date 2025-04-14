@@ -812,7 +812,7 @@
 }
 .thirdfooter {
     display: flex;
-    margin: 40px 60px;
+    margin: 16px 60px;
     font-size: 16px;
     gap: 300px;
 }
